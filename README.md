@@ -1,19 +1,14 @@
 # Congress Stock Trades
 
-This project is intended to   
-
-combines data from Stock Watcher
-
-
-Senate Stock Watcher API: https://senatestockwatcher.com/api House Stock Watcher API: https://housestockwatcher.com/api
-
-
-on the demographic and educational attainment differences between public school districts in Essex County and the distances between these districts. The two-week exploration of primarily Mass. DOE, NCES, and ACS data required merging over 20 datasets and using a variety of tools to analyze and explore the data graphically. Highlights included looking into historical documents about busing in the 70's and learning how to calculate and code the Haversine formula. Additionally, historical data aggregated by the Boston Regional Metropolitan Planning Organization was used to compare incomes between towns.
-
+Data publication and documentation for a project on Congress Members' stock trades and committee assignments
 
 ## Project goal
 
-Identify which members of Congress have similarities between their committee assignments and their stock trades 
+Identify which members of Congress have similarities between their committee assignments and their stock trades.
+
+Some Questions to Answer:
+* Which members of Congress have frequent stock trades in industries that committees they are on have jurisdiction over?
+* Which members of Congress have stock trades of significant amounts in industries that committees they are on have jurisdiction over?
 
 ## Project notes
 ### Notebooks
