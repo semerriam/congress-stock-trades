@@ -1,43 +1,41 @@
-# congress-stock-trades
+# Congress Stock Trades
 
-TK: short project description
+Data publication and documentation for a project on Congress Members' stock trades and committee assignments
 
-*Created by Susan Merriam (<>)*
-
-*Reporter: Susan Merriam (<>)*
 
 ## Project goal
 
-*TK: Briefly describe this project*
+Identify which members of Congress have similarities between their committee assignments and their stock trades.
+
+Some Questions to Answer:
+* Which members of Congress have frequent stock trades in industries that committees they are on have jurisdiction over?
+* Which members of Congress have stock trades of significant amounts in industries that committees they are on have jurisdiction over?
+
 
 ## Project notes
+### Notebooks
 
-### Staff involved
-
-*TK: List people & contact info for people involved in the project*
-
-[Responsibility matrix](url-to-responsibility matrix)
-
-[HIRUFF Q&A](url-to-hiruff)
+* [congress-stock-trades-committees-merge.ipynb](analysis/congress-stock-trades-committees-merge.ipynb) merges Members of Congress' stock trade info with Members' subcommittee assignments using a string algorithm
+* [Stock Watchers-Categories.ipynb](analysis/Stock Watchers-Categories.ipynb) combines Senate and House Stockwatcher data with stock descriptions from the YFinance Module
+* [YFinance.ipynb](analysis/YFinance.ipynb) explores the YFinance module to understand the type of information one can access for stock tickers
+* [Congress-Committee-Assignments.ipynb](analysis/Congress-Committee-Assignments.ipynb) extracts each member of Congress' committeee assignments from a nested JSON file 
+* [string-algorithms-scratchpad.ipynb](analysis/string-algorithms-scratchpad.ipynb) explores using different string algorithms
 
 ### Data sources
 
-*TK: List access info & contact info for data sources used in the project*
+* Senate Stock Watcher API: https://senatestockwatcher.com/api 
+* House Stock Watcher API: https://housestockwatcher.com/api
+* Yahoo Finance data via YFinance Ticker Module: https://pypi.org/project/yfinance/
+* Committee Assignments: https://theunitedstates.io/congress-legislators/committee-membership-current.json
+* Committee Descriptions: Handmade dataset from committees' .gov sites with some exceptions
+* Global Industry Classification Standard (GICS) https://www.msci.com/our-solutions/indexes/gics
+
 
 ## Technical
 
-*TK: Instructions on how to bootstrap project, run ETL processes, etc.*
+*TBD*
 
-An outline of the basic project structure is available at https://github.com/associatedpress/cookiecutter-generic-project
-
-### Project setup instructions
-
-After cloning the git repo:
-
-`datakit data pull` to retrieve the data files.
-
-*TK: For more complex or unusual projects additional directions follow*
 
 ## Data notes
 
-*Add important caveats, limitations, and source contact info here.*
+*TBD*
