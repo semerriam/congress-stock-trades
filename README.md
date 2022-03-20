@@ -17,9 +17,10 @@ Some Questions to Answer:
 
 * [congress-stock-trades-committees-merge.ipynb](analysis/congress-stock-trades-committees-merge.ipynb) merges Members of Congress' stock trade info with Members' subcommittee assignments using a string algorithm
 * [Stock-Watchers-Categories.ipynb](analysis/Stock-Watchers-Categories.ipynb) combines Senate and House Stockwatcher data with stock descriptions from the YFinance Module
-* [YFinance.ipynb](analysis/YFinance.ipynb) explores the YFinance module to understand the type of information one can access for stock tickers
 * [Congress-Committee-Assignments.ipynb](analysis/Congress-Committee-Assignments.ipynb) extracts each member of Congress' committeee assignments from a nested JSON file 
-* [string-algorithms-scratchpad.ipynb](analysis/string-algorithms-scratchpad.ipynb) explores using different string algorithms
+* [YFinance-scratchpad.ipynb](analysis/YFinance-scratchpad.ipynb) explores the YFinance module to understand the type of information one can access for stock tickers
+* [Stock-Watchers-Scratchpad.ipynb](analysis/Stock-Watchers-Scratchpad.ipynb) explores the Stock Watcher data
+* [string-algorithms-scratchpad.ipynb](analysis/string-algorithms-scratchpad.ipynb) explores different string algorithms to practice
 
 ### Data sources
 
